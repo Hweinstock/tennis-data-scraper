@@ -1,8 +1,13 @@
 # tennis-data-scraper
 
 A simple scraping script to gather some stats on professional tennis.      
-Inspiration and selenium code taken from    
-https://towardsdatascience.com/the-king-of-serving-tennis-web-scraping-with-selenium-ae92ade2f017
+Inspiration and selenium code taken from,    
+https://towardsdatascience.com/the-king-of-serving-tennis-web-scraping-with-selenium-ae92ade2f017  
+
+## Purpose
+
+Originally was used for gathering data for a friend thesis on the effect  
+marital status on tournament earnings in professional tennis.
 
 ## Setup
 
