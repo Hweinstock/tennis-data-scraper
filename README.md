@@ -19,6 +19,7 @@ setup.py not yet been created.
 ## Usage
 
 Since command line usage is not yet supported, work off of examples in main.py to execute statements.  
+Output files are generated in the `/output/` directory.  
 
 
 ## Example Data
