@@ -2,8 +2,10 @@ import requests
 import time
 import re
 from bs4 import BeautifulSoup
-import urllib2
-import pprint
+try:
+    import urllib.request as urllib2
+except ImportError:
+    import urllib2
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -145,4 +147,4 @@ def append_to_scrape(year, k, singOrDubs="singles", uuid = ""):
 
 searchedPlayers = []
 #scrape_last_n_years_of_k_players(10, 200, "singles", "(bio-info-singles)")
-scrape_last_n_years_of_k_players(10, 200, "doubles", "(bio-info-doubles)")
+scrape_last_n_years_of_k_players(5, 10, "singles", "(bio-info-singles)")
