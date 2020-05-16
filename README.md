@@ -1,6 +1,4 @@
-# tennis-data-scraper
-
-A simple scraping script to gather some stats on professional tennis.          
+# tennis-data-scraper      
 
 ## Purpose
 
