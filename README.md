@@ -6,22 +6,41 @@ https://towardsdatascience.com/the-king-of-serving-tennis-web-scraping-with-sele
 
 ## Purpose
 
-Originally was used for gathering data for a friend thesis on the effect  
+Originally was used for gathering data for a friend's thesis on the effect  
 marital status on tournament earnings in professional tennis.
 
 ## Setup
 
-In order for Selenium to work properly make sure to use the correct version of webdriver.  
-If chrome is installed, driver is located here: https://chromedriver.chromium.org/downloads    
-  
-setup.py not yet been created.  
-
+`git clone [repo url]`  
+`pip install -r requirements.txt`  
+Head to https://chromedriver.chromium.org/downloads  
+and download the chrome driver that matches version of your chrome.     
+Then move the chrome driver file to be in a directory included in PATH.     
+`mv /path/to/chromedriver /path/to/somewhere/in/PATH/`    
+Now try testing to out with the help menu:  
+`python3 main.py -h`  
 
 ## Usage
 
-Since command line usage is not yet supported, work off of examples in main.py to execute statements.  
-Output files are generated in the `output/` directory.  
+Here is the help menu for arguments.   
+```
+usage: main.py [-h] [-y] [-p] [-m] [-s] [-d]
 
+optional arguments:
+  -h, --help       show this help message and exit
+  -y , --years     argument describing how many years to go back, starting in
+                   2019. Has default value of 1.
+  -p , --players   argument describing how many players' data to scrape. Has
+                   default value of 5.
+  -m , --mode      argument describing what information the data collector
+                   should scrape in. Has default value of 'basic-info'.
+  -s , --singles   argument describing whether it should look at top singles
+                   players or doubles players. Has default value of True
+  -d , --debug     argument describing whether it should print debugging and
+                   progress messages. Has deafult value of False.
+```
+An example call could look like this,  
+`python main.py -d True -y 2 -p 5 -m basic-info`  
 
 ## Example Data
 
