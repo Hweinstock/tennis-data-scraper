@@ -1,8 +1,6 @@
 # tennis-data-scraper
 
-A simple scraping script to gather some stats on professional tennis.      
-Inspiration and selenium code taken from,    
-https://towardsdatascience.com/the-king-of-serving-tennis-web-scraping-with-selenium-ae92ade2f017  
+A simple scraping script to gather some stats on professional tennis.          
 
 ## Purpose
 
@@ -50,3 +48,7 @@ An example call could look like this,
 ## Example Data
 
 There is a large amount of example output files to check results against in the `output/old_output/` directory.  
+
+## Sources
+
+For inspiration and pieces of selenium code: https://towardsdatascience.com/the-king-of-serving-tennis-web-scraping-with-selenium-ae92ade2f017   
