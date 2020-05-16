@@ -12,13 +12,15 @@ marital status on tournament earnings in professional tennis.
 ## Setup
 
 In order for Selenium to work properly make sure to use the correct version of webdriver.  
-Located here: https://chromedriver.chromium.org/downloads  
+If chrome is installed, driver is located here: https://chromedriver.chromium.org/downloads    
+  
 setup.py not yet been created.  
 
 
 ## Usage
 
 Since command line usage is not yet supported, work off of examples in main.py to execute statements.  
+Output files are generated in the `output/` directory.  
 
 
 ## Example Data
