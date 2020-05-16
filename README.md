@@ -11,13 +11,18 @@ marital status on tournament earnings in professional tennis.
 
 ## Setup
 
-`git clone [repo url]`  
-`pip install -r requirements.txt`  
+`git clone https://github.com/Hweinstock/tennis-data-scraper.git`  
+  
+`pip3 install -r requirements.txt`  
+  
 Head to https://chromedriver.chromium.org/downloads  
 and download the chrome driver that matches version of your chrome.     
-Then move the chrome driver file to be in a directory included in PATH.     
-`mv /path/to/chromedriver /path/to/somewhere/in/PATH/`    
+Then move the chrome driver file to be in a directory included in PATH.  
+  
+`mv /path/to/chromedriver /path/to/somewhere/in/PATH/`  
+  
 Now try testing to out with the help menu:  
+  
 `python3 main.py -h`  
 
 ## Usage
