@@ -1,5 +1,9 @@
 # tennis-data-scraper      
 
+## Description 
+
+A simple scraping script to gather some info about professional tennis players.      
+
 ## Purpose
 
 Originally was used for gathering data for a friend's thesis on the effect  
