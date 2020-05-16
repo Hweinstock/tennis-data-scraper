@@ -38,7 +38,7 @@ class DataCollector:
         """
         Could add number after label if someone wanted to run multiple tests
         """
-        return "./output/Tennis_player_details_scrape("+label+")("+mode+").csv"
+        return "./output/tennis_data("+label+")("+mode+").csv"
 
     def scrape_last_n_years_of_k_players(self, n, k, mode, singOrDubs="singles"):
         last_ten_years = get_dates()
